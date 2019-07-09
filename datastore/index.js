@@ -33,9 +33,6 @@ exports.readAll = (callback) => {
       callback(null, allTodos);
     }
   });
-  // var data = _.map(items, (text, id) => {
-  //   return { id, text };
-  // });
 };
 
 exports.readOne = (id, callback) => {
